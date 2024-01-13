@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background:radial-gradient(#321b6a, #190a3e);
+            margin: 0;
+        }
+        
+        .container {
+            height: 100vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        .accordion{
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            height: 1000px;      
+            transition: width 1s;
+            width: 100px;  
+        }
+        
+        .imageShare{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            box-shadow: 0 0 10px #1f093c;
+        }
+
+        .accordion:hover {
+            width: 45%;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="accordion">
+            <img class='imageShare' src='https://images.unsplash.com/photo-1555400113-4961f30f68bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+        </div>
+
+        <div class="accordion">
+            <img class='imageShare' src='https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+        </div>
+
+        <div class="accordion">
+            <img class='imageShare' src='https://images.unsplash.com/photo-1534214526114-0ea4d47b04f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+        </div>
+
+        <div class="accordion">
+            <img class='imageShare' src='https://images.unsplash.com/photo-1501769752-a59efa2298ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+        </div>
+
+        <div class="accordion">
+            <img class='imageShare' src='https://images.unsplash.com/photo-1501560379-05951a742668?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+        </div>
+
+        <div class="accordion">
+            <img class='imageShare' src='https://images.unsplash.com/photo-1532236395709-7d70320fec2d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'>
+        </div>
+   </div>
+
+</body>
+</html>
